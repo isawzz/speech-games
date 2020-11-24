@@ -1,11 +1,10 @@
 # speech-games-server
 
 > this repos is just a clone of github project below. THANK YOU JesperOrb and Contributors!!!!!!!
-> the database contains user data for speech games that have to be presisted online.
 
-This project provides a simple json-server database for speech-games-client, see github
+This project provides a simple json-server database for speech-games-client. the database contains user data for speech games that have to be presisted online. see https://github.com/isawzz/speech-games-client
 
-It si also accessible live on heroku: https://speech-games.herokuapp.com/
+It is also accessible live on heroku: https://speech-games.herokuapp.com/
 
 # Deploy `json-server` to `{{ free hosting site }}`
 
