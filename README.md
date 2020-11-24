@@ -1,6 +1,6 @@
 # speech-games-server
 
-> this repos is just a clone of github project below.
+> this repos is just a clone of github project below. THANK YOU JesperOrb and Contributors!!!!!!!
 > the database contains user data for speech games that have to be presisted online.
 
 This project provides a simple json-server database for speech-games-client, see github
