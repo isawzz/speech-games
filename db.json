@@ -1,16 +1,46 @@
 {
-  "posts":[
-    {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
-    }
-  ],
-  "comments" : [
-    {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
-    }
-  ]
+	"users": [
+		{
+			"id": "Gunter",
+			"email": "hallo@doe.com",
+			"gMissingLetter": {
+				"name": "gMissingLetter",
+				"nTotal": 9,
+				"nCorrect": 9,
+				"percentage": 100
+			},
+			"gTouchColors": {
+				"name": "gTouchColors",
+				"nTotal": 5,
+				"nCorrect": 5,
+				"percentage": 100
+			},
+			"gSayPic": {
+				"name": "gSayPic",
+				"nTotal": 7,
+				"nCorrect": 7,
+				"percentage": 100
+			},
+			"gTouchPic": {
+				"name": "gTouchPic",
+				"nTotal": 18,
+				"nCorrect": 18,
+				"percentage": 100
+			}
+		}
+	],
+	"posts": [
+		{
+			"id": 0,
+			"title": "First post!",
+			"content": "My first content!"
+		}
+	],
+	"comments": [
+		{
+			"id": 0,
+			"content": "Wow such content!",
+			"username": "zero_cool"
+		}
+	]
 }
