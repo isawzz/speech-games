@@ -6,6 +6,15 @@ This project provides a simple json-server database for speech-games-client. the
 
 It is also accessible live on heroku: https://speech-games.herokuapp.com/
 
+A bit faster is to start the server locally: 
+	json-server --watch db.json
+
+then, have to modify S/globals.js (in client project), settings 
+	OFFLINE = true
+
+in order to use the local url for the server.
+
+
 # Deploy `json-server` to `{{ free hosting site }}`
 
 > Instructions how to deploy the full fake REST API [json-server](https://github.com/typicode/json-server) to various free hosting sites. Should only be used in development purpose but can act as a simpler database for smaller applications.
