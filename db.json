@@ -2,7 +2,7 @@
   "users": [
     {
       "id": "Gunter",
-      "email": "hallo@wiebitte.com",
+      "email": "guggi@wiebitte.com",
       "gMissingLetter": {
         "name": "gMissingLetter",
         "nTotal": 9,
@@ -29,16 +29,60 @@
       },
       "gTouchPic": {
         "name": "gTouchPic",
-        "nTotal": 30,
-        "nCorrect": 30,
-        "percentage": 100,
+        "nTotal": 185,
+        "nCorrect": 172,
+        "percentage": 93,
         "maxLevelReached": 6,
-        "startLevel": 2
+        "startLevel": 3
       },
       "gWritePic": {
         "name": "gTouchPic",
         "nTotal": 21,
         "nCorrect": 21,
+        "percentage": 100,
+        "maxLevelReached": 0,
+        "startLevel": 0
+      }
+    },
+    {
+      "id": "Squid",
+      "email": "squid@wiebitte.com",
+      "gMissingLetter": {
+        "name": "gMissingLetter",
+        "nTotal": 0,
+        "nCorrect": 0,
+        "percentage": 100,
+        "maxLevelReached": 0,
+        "startLevel": 0
+      },
+      "gTouchColors": {
+        "name": "gTouchColors",
+        "nTotal": 0,
+        "nCorrect": 0,
+        "percentage": 100,
+        "maxLevelReached": 0,
+        "startLevel": 0
+      },
+      "gSayPic": {
+        "name": "gSayPic",
+        "nTotal": 0,
+        "nCorrect": 0,
+        "percentage": 0,
+        "maxLevelReached": 0,
+        "startLevel": 0
+      },
+      "gTouchPic": {
+        "name": "gTouchPic",
+        "nTotal": 0,
+        "nCorrect": 0,
+        "percentage": 100,
+        "maxLevelReached": 0,
+        "startLevel": 0
+      },
+      "gWritePic": {
+        "name": "gTouchPic",
+        "nTotal": 0,
+        "nCorrect": 0,
         "percentage": 100,
         "maxLevelReached": 0,
         "startLevel": 0
