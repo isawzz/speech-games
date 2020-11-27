@@ -42,6 +42,9 @@
         "percentage": 100,
         "maxLevelReached": 0,
         "startLevel": 0
+      },
+      "gPreMem": {
+        "startLevel": 2
       }
     },
     {
@@ -73,11 +76,11 @@
       },
       "gTouchPic": {
         "name": "gTouchPic",
-        "nTotal": 0,
-        "nCorrect": 0,
+        "nTotal": 14,
+        "nCorrect": 14,
         "percentage": 100,
         "maxLevelReached": 0,
-        "startLevel": 0
+        "startLevel": 5
       },
       "gWritePic": {
         "name": "gTouchPic",
@@ -86,6 +89,12 @@
         "percentage": 100,
         "maxLevelReached": 0,
         "startLevel": 0
+      },
+      "gPreMem": {
+        "startLevel": 4,
+        "nTotal": 80,
+        "nCorrect": 78,
+        "percentage": 98
       }
     }
   ],
