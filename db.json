@@ -44,7 +44,7 @@
         "startLevel": 0
       },
       "gPreMem": {
-        "startLevel": 2
+        "startLevel": 3
       }
     },
     {
@@ -56,7 +56,7 @@
         "nCorrect": 0,
         "percentage": 100,
         "maxLevelReached": 0,
-        "startLevel": 0
+        "startLevel": 2
       },
       "gTouchColors": {
         "name": "gTouchColors",
@@ -91,9 +91,9 @@
         "startLevel": 0
       },
       "gPreMem": {
-        "startLevel": 4,
-        "nTotal": 80,
-        "nCorrect": 78,
+        "startLevel": 2,
+        "nTotal": 89,
+        "nCorrect": 87,
         "percentage": 98
       }
     }
