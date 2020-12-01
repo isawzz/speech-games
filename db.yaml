@@ -1,0 +1,94 @@
+users:
+  - id: Gunter
+    email: guggi@wiebitte.com
+    gMissingLetter:
+      name: gMissingLetter
+      nTotal: 9
+      nCorrect: 9
+      percentage: 100
+      maxLevelReached: 0
+      startLevel: 0
+    gTouchColors:
+      name: gTouchColors
+      nTotal: 5
+      nCorrect: 5
+      percentage: 100
+      maxLevelReached: 0
+      startLevel: 0
+    gSayPic:
+      name: gSayPic
+      nTotal: 67
+      nCorrect: 7
+      percentage: 10
+      maxLevelReached: 0
+      startLevel: 0
+    gTouchPic:
+      name: gTouchPic
+      nTotal: 185
+      nCorrect: 172
+      percentage: 93
+      maxLevelReached: 6
+      startLevel: 3
+    gWritePic:
+      name: gTouchPic
+      nTotal: 21
+      nCorrect: 21
+      percentage: 100
+      maxLevelReached: 0
+      startLevel: 0
+    gPreMem:
+      startLevel: 3
+  - id: Squid
+    email: squid@wiebitte.com
+    gMissingLetter:
+      name: gMissingLetter
+      nTotal: 0
+      nCorrect: 0
+      percentage: 100
+      maxLevelReached: 0
+      startLevel: 2
+    gTouchColors:
+      name: gTouchColors
+      nTotal: 0
+      nCorrect: 0
+      percentage: 100
+      maxLevelReached: 0
+      startLevel: 1
+    gSayPic:
+      name: gSayPic
+      nTotal: 0
+      nCorrect: 0
+      percentage: 0
+      maxLevelReached: 0
+      startLevel: 0
+    gTouchPic:
+      name: gTouchPic
+      nTotal: 14
+      nCorrect: 14
+      percentage: 100
+      maxLevelReached: 0
+      startLevel: 5
+    gWritePic:
+      name: gTouchPic
+      nTotal: 0
+      nCorrect: 0
+      percentage: 100
+      maxLevelReached: 0
+      startLevel: 2
+    gPreMem:
+      startLevel: 3
+      nTotal: 89
+      nCorrect: 87
+      percentage: 98
+settings:
+  - id: 0
+    content: Wow such content!
+    username: zero_cool
+posts:
+  - id: 0
+    title: First post!
+    content: My first content!
+comments:
+  - id: 0
+    content: Wow such content!
+    username: zero_cool
