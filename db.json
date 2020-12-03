@@ -36,7 +36,7 @@
             "nCorrect": 172,
             "percentage": 93,
             "maxLevelReached": 6,
-            "startLevel": 5
+            "startLevel": 4
           },
           "gWritePic": {
             "name": "gTouchPic",
@@ -47,7 +47,20 @@
             "startLevel": 3
           },
           "gPreMem": {
-            "startLevel": 5
+            "name": "gMem",
+            "nTotal": 0,
+            "nCorrect": 0,
+            "percentage": 100,
+            "startLevel": 0,
+            "maxLevelReached": 5
+          },
+          "gMem": {
+            "name": "gMem",
+            "nTotal": 0,
+            "nCorrect": 0,
+            "percentage": 100,
+            "startLevel": 6,
+            "maxLevelReached": 0
           }
         },
         "Squid": {
@@ -112,6 +125,9 @@
             "decrementLevelOnNegativeStreak": 3,
             "gameSequence": [
               {
+                "game": "gMem"
+              },
+              {
                 "game": "gTouchPic"
               },
               {
@@ -130,16 +146,15 @@
                 "game": "gTouchColors"
               }
             ],
-            "currentGameIndex": 3,
-            "currentLevel": 0,
-            "currentLanguage": "D",
+            "currentGameIndex": 0,
+            "currentLevel": 5,
+            "currentLanguage": "E",
             "vocab": 25,
+            "spokenFeedback": true,
             "currentCategories": [
               "nosymemo"
             ],
-            "labels": true,
-            "showTime": false,
-            "switchGame": false
+            "labels": true
           },
           "flags": {
             "pressControlToUnfreeze": false,
@@ -229,7 +244,6 @@
               }
             },
             "gPreMem": {
-              "trials": 1,
               "levels": {
                 "0": {
                   "numPics": 2,
@@ -254,6 +268,38 @@
                 "5": {
                   "numPics": 18,
                   "numRepeat": 2
+                }
+              }
+            },
+            "gMem": {
+              "levels": {
+                "0": {
+                  "numPics": 2,
+                  "numRepeat": 1
+                },
+                "1": {
+                  "numPics": 4,
+                  "numRepeat": 1
+                },
+                "2": {
+                  "numPics": 9,
+                  "numRepeat": 1
+                },
+                "3": {
+                  "numPics": 2,
+                  "numRepeat": 1
+                },
+                "4": {
+                  "numPics": 4,
+                  "numRepeat": 1
+                },
+                "5": {
+                  "numPics": 4,
+                  "numRepeat": 1
+                },
+                "6": {
+                  "numPics": 6,
+                  "numRepeat": 1
                 }
               }
             },
@@ -289,6 +335,9 @@
             "decrementLevelOnNegativeStreak": 3,
             "gameSequence": [
               {
+                "game": "gMem"
+              },
+              {
                 "game": "gTouchPic"
               },
               {
@@ -311,6 +360,7 @@
             "currentLevel": 5,
             "currentLanguage": "E",
             "vocab": 25,
+            "spokenFeedback": true,
             "currentCategories": [
               "nosymemo"
             ]
@@ -403,7 +453,6 @@
               }
             },
             "gPreMem": {
-              "trials": 1,
               "levels": {
                 "0": {
                   "numPics": 2,
@@ -428,6 +477,38 @@
                 "5": {
                   "numPics": 18,
                   "numRepeat": 2
+                }
+              }
+            },
+            "gMem": {
+              "levels": {
+                "0": {
+                  "numPics": 2,
+                  "numRepeat": 1
+                },
+                "1": {
+                  "numPics": 4,
+                  "numRepeat": 1
+                },
+                "2": {
+                  "numPics": 9,
+                  "numRepeat": 1
+                },
+                "3": {
+                  "numPics": 2,
+                  "numRepeat": 1
+                },
+                "4": {
+                  "numPics": 4,
+                  "numRepeat": 1
+                },
+                "5": {
+                  "numPics": 4,
+                  "numRepeat": 1
+                },
+                "6": {
+                  "numPics": 6,
+                  "numRepeat": 1
                 }
               }
             },
