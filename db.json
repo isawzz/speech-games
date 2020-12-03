@@ -12,7 +12,7 @@
             "nCorrect": 9,
             "percentage": 100,
             "maxLevelReached": 0,
-            "startLevel": 5
+            "startLevel": 2
           },
           "gTouchColors": {
             "name": "gTouchColors",
@@ -40,8 +40,8 @@
           },
           "gWritePic": {
             "name": "gTouchPic",
-            "nTotal": 21,
-            "nCorrect": 21,
+            "nTotal": 22,
+            "nCorrect": 22,
             "percentage": 100,
             "maxLevelReached": 0,
             "startLevel": 3
@@ -106,6 +106,7 @@
           "program": {
             "minutesPerUnit": 15,
             "samplesPerLevel": 1,
+            "trials": 3,
             "showLabels": "toggle",
             "incrementLevelOnPositiveStreak": 5,
             "decrementLevelOnNegativeStreak": 3,
@@ -129,14 +130,16 @@
                 "game": "gTouchColors"
               }
             ],
-            "currentGameIndex": 1,
-            "currentLevel": 5,
-            "currentLanguage": "E",
+            "currentGameIndex": 3,
+            "currentLevel": 0,
+            "currentLanguage": "D",
             "vocab": 25,
             "currentCategories": [
               "nosymemo"
             ],
-            "labels": true
+            "labels": true,
+            "showTime": false,
+            "switchGame": false
           },
           "flags": {
             "pressControlToUnfreeze": false,
@@ -280,6 +283,7 @@
           "program": {
             "minutesPerUnit": 15,
             "samplesPerLevel": 1,
+            "trials": 3,
             "showLabels": "toggle",
             "incrementLevelOnPositiveStreak": 5,
             "decrementLevelOnNegativeStreak": 3,
