@@ -14,52 +14,50 @@
             "gSayPic",
             "gMem",
             "gMissingNumber",
-            "gWritePic"
+            "gWritePic",
+            "gAnagram",
+            "gElim"
           ],
-          "lastGame": "gTouchPic",
+          "lastGame": "gAnagram",
           "lastLevel": 0,
           "settings": {
-            "minutesPerUnit": 1,
-            "samplesPerLevel": 2,
-            "trials": 1,
+            "samplesPerGame": 3,
+            "minutesPerUnit": 0.1,
+            "incrementLevelOnPositiveStreak": 1,
+            "decrementLevelOnNegativeStreak": 1,
             "showLabels": "toggle",
-            "incrementLevelOnPositiveStreak": 2,
-            "decrementLevelOnNegativeStreak": 3,
-            "language": "D",
+            "language": "E",
             "vocab": "best100",
-            "spokenFeedback": false,
-            "silentMode": true,
+            "showTime": true,
+            "spokenFeedback": true,
+            "silentMode": false,
+            "switchGame": true,
+            "trials": 2,
+            "showHint": true,
             "categories": [
               "nosymemo"
             ],
             "pressControlToUnfreeze": false,
             "reducedAnimations": true,
-            "levelBadges": false,
-            "showHint": true,
-            "showTime": true,
-            "switchGame": true,
-            "labels": true
+            "levelBadges": false
           },
           "games": {
             "gSteps": {
-              "startLevel": 3
+              "startLevel": 0
             },
-            "gTouchPic": {
-              "nTotal": 1,
+            "gElim": {
+              "nTotal": 0,
+              "nCorrect": 0,
+              "nCorrect1": 0,
+              "startLevel": 1,
+              "byLevel": {}
+            },
+            "gAnagram": {
+              "nTotal": 0,
               "nCorrect": 0,
               "nCorrect1": 0,
               "startLevel": 0,
-              "byLevel": {
-                "0": {
-                  "nTotal": 1,
-                  "nCorrect": 0,
-                  "nCorrect1": 0
-                }
-              },
-              "percentage": 0
-            },
-            "gPremem": {
-              "startLevel": 0
+              "byLevel": {}
             }
           },
           "session": {}
@@ -75,29 +73,26 @@
             "gSayPic",
             "gMem",
             "gMissingNumber",
-            "gWritePic"
+            "gWritePic",
+            "gAnagram",
+            "gElim"
           ],
           "lastGame": "gTouchPic",
           "lastLevel": 0,
           "settings": {
+            "samplesPerGame": 10,
             "minutesPerUnit": 10,
-            "samplesPerLevel": 10,
-            "trials": 2,
-            "showLabels": "toggle",
             "incrementLevelOnPositiveStreak": 10,
-            "decrementLevelOnNegativeStreak": 3,
+            "decrementLevelOnNegativeStreak": 5,
+            "showLabels": "toggle",
             "language": "E",
             "vocab": "best25",
+            "showTime": false,
             "spokenFeedback": true,
-            "categories": [
-              "nosymemo"
-            ],
-            "pressControlToUnfreeze": false,
-            "reducedAnimations": true,
-            "levelBadges": false,
-            "showHint": true,
-            "showTime": true,
-            "switchGame": true
+            "silentMode": false,
+            "switchGame": true,
+            "trials": 2,
+            "showHint": true
           },
           "games": {
             "gTouchPic": {
@@ -106,7 +101,7 @@
           }
         },
         "test0": {
-          "id": "test",
+          "id": "test0",
           "seq": [
             "gTouchPic",
             "gPremem",
@@ -116,29 +111,26 @@
             "gSayPic",
             "gMem",
             "gMissingNumber",
-            "gWritePic"
+            "gWritePic",
+            "gAnagram",
+            "gElim"
           ],
           "lastGame": "gTouchPic",
           "lastLevel": 0,
           "settings": {
-            "minutesPerUnit": 0.2,
-            "samplesPerLevel": 2,
-            "trials": 1,
-            "showLabels": "toggle",
+            "samplesPerGame": 10,
+            "minutesPerUnit": 10,
             "incrementLevelOnPositiveStreak": 10,
-            "decrementLevelOnNegativeStreak": 3,
+            "decrementLevelOnNegativeStreak": 5,
+            "showLabels": "toggle",
             "language": "E",
-            "vocab": "best50",
-            "spokenFeedback": false,
-            "categories": [
-              "nosymemo"
-            ],
-            "pressControlToUnfreeze": false,
-            "reducedAnimations": true,
-            "levelBadges": false,
-            "showHint": false,
-            "showTime": true,
-            "switchGame": true
+            "vocab": "best25",
+            "showTime": false,
+            "spokenFeedback": true,
+            "silentMode": false,
+            "switchGame": true,
+            "trials": 2,
+            "showHint": true
           },
           "games": {
             "gTouchPic": {
@@ -155,56 +147,38 @@
             "gMissingLetter",
             "gSteps",
             "gSayPic",
-            "gMissingNumber",
             "gMem",
-            "gWritePic"
+            "gMissingNumber",
+            "gWritePic",
+            "gAnagram",
+            "gElim"
           ],
-          "lastGame": "gSteps",
+          "lastGame": "gMissingNumber",
           "lastLevel": 0,
           "settings": {
-            "minutesPerUnit": 10,
-            "samplesPerLevel": 10,
-            "trials": 2,
-            "showLabels": "toggle",
+            "samplesPerGame": 25,
+            "minutesPerUnit": 20,
             "incrementLevelOnPositiveStreak": 10,
             "decrementLevelOnNegativeStreak": 5,
+            "showLabels": "toggle",
             "language": "E",
-            "vocab": "best50",
+            "vocab": "best100",
+            "showTime": false,
             "spokenFeedback": true,
-            "showHint": true,
-            "showTime": true,
+            "silentMode": false,
             "switchGame": true,
-            "categories": [
-              "nosymemo"
-            ],
-            "pressControlToUnfreeze": false,
-            "reducedAnimations": true,
-            "levelBadges": false
+            "trials": 2,
+            "showHint": true
           },
           "games": {
             "gTouchPic": {
               "startLevel": 3
-            },
-            "gMissingLetter": {
-              "startLevel": 3
-            },
-            "gMissingNumber": {
-              "startLevel": 0
-            },
-            "gTouchColors": {
-              "startLevel": 1
             },
             "gPremem": {
               "startLevel": 3
             },
             "gMem": {
               "startLevel": 1
-            },
-            "gSayPic": {
-              "startLevel": 0
-            },
-            "gWritePic": {
-              "startLevel": 3
             }
           }
         }
@@ -248,11 +222,7 @@
               "5": {
                 "numPics": 36
               }
-            },
-            "numRepeat": 1,
-            "numColors": 1,
-            "numSteps": 1,
-            "numLabels": -1
+            }
           },
           "gMissingLetter": {
             "levels": {
@@ -283,104 +253,64 @@
             }
           },
           "gMissingNumber": {
+            "numMissing": 1,
+            "minNum": 0,
+            "maxNum": 99,
+            "steps": 1,
+            "posMissing": "end",
+            "ops": [
+              "add"
+            ],
+            "seqLen": 5,
             "levels": {
               "0": {
-                "numMissing": 1,
-                "posMissing": "end",
-                "min": 0,
-                "max": 10,
-                "steps": 1,
-                "ops": [
-                  "add"
-                ]
+                "maxNum": 10
               },
               "1": {
-                "numMissing": 1,
-                "posMissing": "end",
-                "min": 0,
-                "max": 10,
-                "steps": 1,
+                "maxNum": 10,
                 "ops": [
                   "subtract"
                 ]
               },
               "2": {
-                "numMissing": 1,
-                "posMissing": "end",
-                "min": 0,
-                "max": 30,
-                "steps": 1,
+                "maxNum": 10,
                 "ops": [
-                  "add"
+                  "add",
+                  "subtract"
                 ]
               },
               "3": {
-                "numMissing": 1,
-                "posMissing": "end",
-                "min": 0,
-                "max": 20,
-                "steps": 1,
+                "maxNum": 25,
                 "ops": [
+                  "add",
                   "subtract"
                 ]
               },
               "4": {
-                "numMissing": 1,
-                "posMissing": "end",
-                "min": 0,
-                "max": 15,
-                "steps": 1,
+                "maxNum": 50,
+                "steps": [
+                  1,
+                  2,
+                  3
+                ],
                 "ops": [
-                  "add",
-                  "subtract"
+                  "add"
                 ]
               },
               "5": {
-                "numMissing": 1,
-                "posMissing": "end",
-                "min": 0,
-                "max": 50,
+                "maxNum": 50,
                 "steps": [
                   1,
                   2
                 ],
                 "ops": [
-                  "add"
+                  "add",
+                  "subtract"
                 ]
               },
               "6": {
-                "numMissing": 1,
-                "posMissing": "end",
-                "min": 0,
-                "max": 50,
-                "steps": [
-                  1,
-                  2,
-                  3
-                ],
-                "ops": [
-                  "add"
-                ]
-              },
-              "7": {
-                "numMissing": 1,
-                "posMissing": "end",
-                "min": 0,
-                "max": 50,
-                "steps": [
-                  1,
-                  2,
-                  3
-                ],
-                "ops": [
-                  "add"
-                ]
-              },
-              "8": {
-                "numMissing": 1,
                 "posMissing": "notStart",
-                "min": 0,
-                "max": 50,
+                "maxNum": 99,
                 "steps": [
                   1,
                   2
@@ -390,26 +320,9 @@
                   "subtract"
                 ]
               },
-              "9": {
-                "numMissing": 1,
+              "7": {
                 "posMissing": "notStart",
-                "min": 0,
-                "max": 99,
-                "steps": [
-                  1,
-                  2,
-                  3
-                ],
-                "ops": [
-                  "add",
-                  "subtract"
-                ]
-              },
-              "10": {
-                "numMissing": 1,
-                "posMissing": "notStart",
-                "min": 0,
-                "max": 99,
+                "maxNum": 99,
                 "steps": [
                   1,
                   2,
@@ -422,11 +335,9 @@
                   "subtract"
                 ]
               },
-              "11": {
-                "numMissing": 1,
+              "8": {
                 "posMissing": "notStart",
-                "min": 0,
-                "max": 99,
+                "maxNum": 99,
                 "steps": [
                   3,
                   4,
@@ -445,32 +356,14 @@
             }
           },
           "gSteps": {
-            "contrast": 0.32,
+            "contrast": 0.22,
             "colors": [
-              {
-                "name": "blue",
-                "color": "blue"
-              },
-              {
-                "name": "pink",
-                "color": "hotpink"
-              },
-              {
-                "name": "green",
-                "color": "green"
-              },
-              {
-                "name": "yellow",
-                "color": "gold"
-              },
-              {
-                "name": "violet",
-                "color": "indigo"
-              },
-              {
-                "name": "red",
-                "color": "red"
-              }
+              "blue1",
+              "violet",
+              "lightgreen",
+              "pink",
+              "red",
+              "yellow"
             ],
             "levels": {
               "0": {
@@ -523,6 +416,75 @@
               }
             }
           },
+          "gSet": {
+            "contrast": 0.22,
+            "colors": [
+              "blue",
+              "violet",
+              "lightgreen",
+              "pink",
+              "red",
+              "yellow"
+            ],
+            "levels": {
+              "0": {
+                "numPics": 3,
+                "numColors": 4,
+                "numRepeat": 2,
+                "numSteps": 2
+              },
+              "1": {
+                "numPics": 4,
+                "numColors": 1,
+                "numRepeat": 4,
+                "numSteps": 2
+              },
+              "2": {
+                "numPics": 2,
+                "numColors": 4,
+                "numRepeat": 3,
+                "numSteps": 2
+              }
+            }
+          },
+          "gElim": {
+            "contrast": 0.22,
+            "colors": [
+              "blue",
+              "violet",
+              "lightgreen",
+              "pink",
+              "red",
+              "yellow"
+            ],
+            "levels": {
+              "0": {
+                "numPics": 3,
+                "numColors": 3,
+                "numRepeat": 1
+              },
+              "1": {
+                "numPics": 3,
+                "numColors": 1,
+                "numRepeat": 3
+              },
+              "2": {
+                "numPics": 2,
+                "numColors": 3,
+                "numRepeat": 2
+              },
+              "3": {
+                "numPics": 3,
+                "numColors": 4,
+                "numRepeat": 2
+              },
+              "4": {
+                "numPics": 3,
+                "numColors": 4,
+                "numRepeat": 3
+              }
+            }
+          },
           "gTouchColors": {
             "contrast": 0.32,
             "colors": [
@@ -555,6 +517,7 @@
             }
           },
           "gPremem": {
+            "trials": 1,
             "levels": {
               "0": {
                 "numPics": 2,
@@ -628,6 +591,28 @@
               },
               "3": {
                 "maxWordLength": 100
+              }
+            }
+          },
+          "gAnagram": {
+            "levels": {
+              "0": {
+                "maxWordLength": 3
+              },
+              "1": {
+                "maxWordLength": 4
+              },
+              "2": {
+                "maxWordLength": 5
+              },
+              "3": {
+                "maxWordLength": 6
+              },
+              "4": {
+                "maxWordLength": 7
+              },
+              "5": {
+                "maxWordLength": 8
               }
             }
           }
