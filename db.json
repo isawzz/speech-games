@@ -1272,7 +1272,7 @@
             "gRiddle",
             "gC4"
           ],
-          "lastGame": "gMissingLetter",
+          "lastGame": "gChess",
           "settings": {
             "userColor": "green",
             "samplesPerGame": 20,
@@ -1346,7 +1346,8 @@
             },
             "gWritePic": {
               "startLevel": 2
-            }
+            },
+            "gChess": {}
           },
           "avAddons": [
             "aPasscode",
@@ -2492,11 +2493,11 @@
           "numPlayers": 2,
           "rows": 8,
           "cols": 8,
-          "searchDepth": 4,
+          "searchDepth": 3,
           "copyState": true,
           "iPosition": 0,
-          "startPosition": "seq",
-          "startPlayer": "ai",
+          "startPosition": "empty",
+          "startPlayer": "random",
           "manual": true
         },
         "gMissingNumber": {
