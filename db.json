@@ -1251,28 +1251,28 @@
         "nil": {
           "id": "nil",
           "avGames": [
-            "gChess",
-            "gC4",
-            "gElim",
+            "gSteps",
             "gSentence",
+            "gTouchColors",
+            "gSayPic",
             "gReversi",
             "gMissingLetter",
             "gNamit",
             "gTouchPic",
-            "gPremem",
-            "gTouchColors",
-            "gSayPic",
-            "gSwap",
-            "gMem",
             "gWritePic",
+            "gChess",
+            "gPremem",
+            "gMem",
+            "gSwap",
             "gTTT",
-            "gSteps",
+            "gElim",
             "gAnagram",
             "gCats",
             "gAbacus",
-            "gRiddle"
+            "gRiddle",
+            "gC4"
           ],
-          "lastGame": "gChess",
+          "lastGame": "gMissingLetter",
           "settings": {
             "userColor": "green",
             "samplesPerGame": 20,
@@ -1363,29 +1363,34 @@
             "aPassword": {
               "open": false
             }
-          }
+          },
+          "session": {}
         },
         "guest0": {
           "id": "guest0",
           "avGames": [
-            "gElim",
+            "gSteps",
             "gSentence",
+            "gTouchColors",
+            "gSayPic",
+            "gReversi",
             "gMissingLetter",
             "gNamit",
             "gTouchPic",
-            "gPremem",
-            "gTouchColors",
-            "gSayPic",
-            "gSwap",
-            "gMem",
             "gWritePic",
-            "gSteps",
+            "gChess",
+            "gPremem",
+            "gMem",
+            "gSwap",
+            "gTTT",
+            "gElim",
             "gAnagram",
             "gCats",
             "gAbacus",
-            "gRiddle"
+            "gRiddle",
+            "gC4"
           ],
-          "lastGame": "gNamit",
+          "lastGame": "gChess",
           "settings": {
             "samplesPerGame": 10,
             "minutesPerUnit": 10,
@@ -1410,24 +1415,28 @@
         "test0": {
           "id": "test0",
           "avGames": [
-            "gElim",
+            "gSteps",
             "gSentence",
+            "gTouchColors",
+            "gSayPic",
+            "gReversi",
             "gMissingLetter",
             "gNamit",
             "gTouchPic",
-            "gPremem",
-            "gTouchColors",
-            "gSayPic",
-            "gSwap",
-            "gMem",
             "gWritePic",
-            "gSteps",
+            "gChess",
+            "gPremem",
+            "gMem",
+            "gSwap",
+            "gTTT",
+            "gElim",
             "gAnagram",
             "gCats",
             "gAbacus",
-            "gRiddle"
+            "gRiddle",
+            "gC4"
           ],
-          "lastGame": "gNamit",
+          "lastGame": "gChess",
           "settings": {
             "samplesPerGame": 10,
             "minutesPerUnit": 10,
@@ -1488,24 +1497,28 @@
         "gunter": {
           "id": "gunter",
           "avGames": [
-            "gElim",
+            "gSteps",
             "gSentence",
-            "gMissingLetter",
-            "gNamit",
-            "gPremem",
-            "gTouchPic",
-            "gSwap",
             "gTouchColors",
             "gSayPic",
-            "gMem",
+            "gReversi",
+            "gMissingLetter",
+            "gNamit",
+            "gTouchPic",
             "gWritePic",
-            "gSteps",
+            "gChess",
+            "gPremem",
+            "gMem",
+            "gSwap",
+            "gTTT",
+            "gElim",
             "gAnagram",
             "gCats",
             "gAbacus",
-            "gRiddle"
+            "gRiddle",
+            "gC4"
           ],
-          "lastGame": "gNamit",
+          "lastGame": "gChess",
           "settings": {
             "userColor": "blue",
             "samplesPerGame": 10,
@@ -1601,27 +1614,28 @@
         "gul": {
           "id": "gul",
           "avGames": [
-            "gC4",
-            "gElim",
+            "gSteps",
             "gSentence",
+            "gTouchColors",
+            "gSayPic",
             "gReversi",
             "gMissingLetter",
             "gNamit",
             "gTouchPic",
-            "gPremem",
-            "gTouchColors",
-            "gSayPic",
-            "gSwap",
-            "gMem",
             "gWritePic",
+            "gChess",
+            "gPremem",
+            "gMem",
+            "gSwap",
             "gTTT",
-            "gSteps",
+            "gElim",
             "gAnagram",
             "gCats",
             "gAbacus",
-            "gRiddle"
+            "gRiddle",
+            "gC4"
           ],
-          "lastGame": "gReversi",
+          "lastGame": "gMissingLetter",
           "settings": {
             "userColor": "blue",
             "samplesPerGame": 10,
@@ -1725,8 +1739,7 @@
             "aPassword": {
               "open": false
             }
-          },
-          "session": {}
+          }
         }
       },
       "settings": {
@@ -2152,6 +2165,46 @@
             }
           }
         },
+        "gRiddle": {
+          "friendly": "Riddle",
+          "logo": "blue book",
+          "color": "seagreen",
+          "controllerType": "solitaire",
+          "minIndex": 0,
+          "maxIndex": 10,
+          "minPlus": 0,
+          "maxPlus": 10,
+          "minMinus": 0,
+          "maxMinus": 10,
+          "minMult": 2,
+          "maxMult": 10,
+          "minDiv": 2,
+          "maxDiv": 10,
+          "exactDivisor": true,
+          "roundDecimalsTo": 0.25,
+          "singleDigitFractions": true,
+          "levels": {
+            "0": {
+              "maxIndex": 8
+            },
+            "1": {
+              "minIndex": 8,
+              "maxIndex": 20
+            },
+            "2": {
+              "minIndex": 15,
+              "maxIndex": 30
+            },
+            "3": {
+              "minIndex": 20,
+              "maxIndex": 40
+            },
+            "4": {
+              "minIndex": 25,
+              "maxIndex": 51
+            }
+          }
+        },
         "gTouchColors": {
           "friendly": "Colors!",
           "logo": "artist palette",
@@ -2393,6 +2446,58 @@
               "trials": 3
             }
           }
+        },
+        "gTTT": {
+          "friendly": "TicTacToe",
+          "logo": "abstract-050",
+          "color": "#1e3569",
+          "controllerType": "solo",
+          "numPlayers": 2,
+          "boardSize": 3,
+          "searchDepth": 9,
+          "startPosition": "empty",
+          "startPlayer": "random"
+        },
+        "gC4": {
+          "friendly": "Connect4",
+          "logo": "abstract-051",
+          "color": "#351e69",
+          "controllerType": "solo",
+          "numPlayers": 2,
+          "rows": 6,
+          "cols": 7,
+          "stride": 4,
+          "searchDepth": 4,
+          "startPosition": "empty",
+          "startPlayer": "random"
+        },
+        "gReversi": {
+          "friendly": "Reversi",
+          "logo": "first quarter moon",
+          "color": "#ff93c4",
+          "controllerType": "solo",
+          "numPlayers": 2,
+          "rows": 6,
+          "cols": 6,
+          "searchDepth": 7,
+          "copyState": true,
+          "startPosition": "seq",
+          "startPlayer": "human"
+        },
+        "gChess": {
+          "friendly": "Chess",
+          "logo": "chess",
+          "color": "midnightblue",
+          "controllerType": "solo",
+          "numPlayers": 2,
+          "rows": 8,
+          "cols": 8,
+          "searchDepth": 4,
+          "copyState": true,
+          "iPosition": 0,
+          "startPosition": "seq",
+          "startPlayer": "ai",
+          "manual": true
         },
         "gMissingNumber": {
           "friendly": "Sequence!",
@@ -2638,41 +2743,6 @@
             }
           }
         },
-        "gRiddle": {
-          "friendly": "Riddle",
-          "logo": "blue book",
-          "color": "seagreen",
-          "controllerType": "solitaire",
-          "maxIndex": 10,
-          "minPlus": 0,
-          "maxPlus": 10,
-          "minMinus": 0,
-          "maxMinus": 10,
-          "minMult": 2,
-          "maxMult": 10,
-          "minDiv": 2,
-          "maxDiv": 10,
-          "exactDivisor": true,
-          "roundDecimalsTo": 0.25,
-          "singleDigitFractions": true,
-          "levels": {
-            "0": {
-              "maxIndex": 8
-            },
-            "1": {
-              "maxIndex": 20
-            },
-            "2": {
-              "maxIndex": 30
-            },
-            "3": {
-              "maxIndex": 40
-            },
-            "4": {
-              "maxIndex": 51
-            }
-          }
-        },
         "gGuess": {
           "friendly": "Guess",
           "logo": "input latin letters",
@@ -2698,56 +2768,6 @@
           "color": "steelblue",
           "controllerType": "solo",
           "numPlayers": 2
-        },
-        "gTTT": {
-          "friendly": "TicTacToe",
-          "logo": "abstract-050",
-          "color": "#1e3569",
-          "controllerType": "solo",
-          "numPlayers": 2,
-          "boardSize": 3,
-          "searchDepth": 9,
-          "startPosition": "empty",
-          "startPlayer": "random"
-        },
-        "gC4": {
-          "friendly": "Connect4",
-          "logo": "abstract-051",
-          "color": "#351e69",
-          "controllerType": "solo",
-          "numPlayers": 2,
-          "rows": 6,
-          "cols": 7,
-          "stride": 4,
-          "searchDepth": 4,
-          "startPosition": "empty",
-          "startPlayer": "random"
-        },
-        "gReversi": {
-          "friendly": "Reversi",
-          "logo": "first quarter moon",
-          "color": "#ff93c4",
-          "controllerType": "solo",
-          "numPlayers": 2,
-          "rows": 6,
-          "cols": 6,
-          "searchDepth": 7,
-          "copyState": true,
-          "startPosition": "seq",
-          "startPlayer": "human"
-        },
-        "gChess": {
-          "friendly": "Chess",
-          "logo": "chess",
-          "color": "green",
-          "controllerType": "solo",
-          "numPlayers": 2,
-          "rows": 8,
-          "cols": 8,
-          "searchDepth": 7,
-          "copyState": true,
-          "startPosition": "seq",
-          "startPlayer": "human"
         }
       },
       "addons": {
